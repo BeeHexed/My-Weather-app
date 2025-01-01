@@ -9,5 +9,13 @@ h1 {
   }
 
   body {
-    background-color: rgba(123, 162, 184, .5);
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/836/original/blue-rain-drops.jpg?1735746079");
   }
+
+  .box {
+    background-color: rgba(100, 194, 220, .9) ;
+       
+  }
+
+
+  
