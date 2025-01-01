@@ -1,6 +1,8 @@
 h1 {
       text-align: center;
-      color: #AC80A0;
+      color: rgb(3,
+        64,
+        120);
       font-weight: 700;
     font-family: "Inter";
         text-align: center;
@@ -26,7 +28,7 @@ h1 {
   .box {
     background-color: rgba(242,
         149,
-        89, .9) ;
+        89, .99) ;
     padding: 15px;
     border-radius: 5px;
     margin: 15px;
