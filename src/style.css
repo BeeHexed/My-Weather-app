@@ -1,6 +1,6 @@
 h1 {
       text-align: center;
-      color: #3b3be0;
+      color: #2a4dcb;
   }
 
   footer {
@@ -14,6 +14,9 @@ h1 {
 
   .box {
     background-color: rgba(100, 194, 220, .9) ;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
        
   }
 
