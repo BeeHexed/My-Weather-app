@@ -1,6 +1,7 @@
 h1 {
       text-align: center;
-      color: #2a4dcb;
+      color: #AC80A0;
+      font-style: bold;
   }
 
   footer {
@@ -12,8 +13,16 @@ h1 {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/836/original/blue-rain-drops.jpg?1735746079");
   }
 
+ form {
+     display: block;
+     margin: 20px auto;
+     text-align: center;
+ }
+
+
+
   .box {
-    background-color: rgba(100, 194, 220, .9) ;
+    background-color: rgba(100, 194, 220, .95) ;
     padding: 15px;
     border-radius: 5px;
     margin: 10px;
