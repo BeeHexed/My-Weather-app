@@ -11,6 +11,7 @@ h1 {
   footer {
     font-size: 11.5px;
     text-align: center;
+    color: #034078;
   }
 
   body {
@@ -28,12 +29,18 @@ h1 {
   .box {
     background-color: rgba(242,
         149,
-        89, .99) ;
+        89, .95) ;
     padding: 15px;
     border-radius: 5px;
     margin: 15px;
   }
 
+  .inputButton {
+    background-color: #75C8E0;
+    border: solid 1px;
+    border-color: #034078 ;
+    border-radius: 5px;
+  }
 
 
 
