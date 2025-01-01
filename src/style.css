@@ -1,7 +1,9 @@
 h1 {
       text-align: center;
       color: #AC80A0;
-      font-style: bold;
+      font-weight: 700;
+    font-family: "Inter";
+        text-align: center;
   }
 
   footer {
