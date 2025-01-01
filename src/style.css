@@ -1,9 +1,13 @@
 h1 {
       text-align: center;
-      color: blue;
+      color: #6969e2;
   }
 
   footer {
     font-size: 11.5px;
     text-align: center;
+  }
+
+  body {
+    background-color: rgba(123, 162, 184, .5);
   }
