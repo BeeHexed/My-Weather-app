@@ -30,9 +30,11 @@ h1 {
     background-color: rgba(242,
         149,
         89, .95) ;
-    padding: 15px;
+    border: 35px;
     border-radius: 5px;
-    margin: 15px;
+    margin: 25px 30px;
+    max-width: 750px;
+    padding: 20px 15px ;
   }
 
   .inputButton {
