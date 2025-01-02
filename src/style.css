@@ -5,7 +5,11 @@ h1 {
         120);
       font-weight: 700;
     font-family: "Inter";
-        text-align: center;
+text-shadow:
+        -1px -2px 0px #efffff,
+        -2px -1px 0px #efffff,
+        -1px -2px 0px #efffff,
+        -2px -1px 0px #efffff;
   }
 
   footer {
@@ -53,6 +57,7 @@ h1 {
     border-radius: 6px;
     width: 70%;
     padding: 8px 5px;
+    font-size: 16px;
   }
 
   
