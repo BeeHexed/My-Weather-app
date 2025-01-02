@@ -6,16 +6,16 @@ h1 {
       font-weight: 700;
     font-family: "Inter";
 text-shadow:
-        -1px -2px 0px #efffff,
-        -2px -1px 0px #efffff,
-        -1px -2px 0px #efffff,
-        -2px -1px 0px #efffff;
+        -1px -2px 0px #C2D4DD,
+        -2px -1px 0px #C2D4DD,
+        -1px -2px 0px #C2D4DD,
+        -2px -1px 0px #C2D4DD;
   }
 
   footer {
     font-size: 11.5px;
     text-align: center;
-    color: #034078;
+    color: #aa5567;
   }
 
   body {
@@ -33,9 +33,9 @@ text-shadow:
 
 
   .box {
-    background-color: rgba(234,
+    background-color: rgb(234,
         153,
-        115, .95) ;
+        115) ;
     border: 35px;
     border-radius: 10px;
     margin: 25px 30px;
@@ -45,10 +45,15 @@ text-shadow:
   }
 
   .inputButton {
-    background-color: #75C8E0;
-    border: solid 1px;
+    background-color: #aa5567;
+    border: none;
     border-color: #034078 ;
-    border-radius: 5px;
+    border-radius: 7px;
+    padding: 8px 5px;
+    color: #ffffff;
+    width: 75px;
+    font-size: 15px;
+    margin-left: 13px;
   }
 
   .search-form-input {
