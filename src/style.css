@@ -16,6 +16,8 @@ h1 {
 
   body {
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/836/original/blue-rain-drops.jpg?1735746079");
+    font-family: "Inter";
+        color: #034078;
   }
 
  form {
@@ -27,14 +29,15 @@ h1 {
 
 
   .box {
-    background-color: rgba(242,
-        149,
-        89, .95) ;
+    background-color: rgba(234,
+        153,
+        115, .95) ;
     border: 35px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 25px 30px;
     max-width: 750px;
     padding: 20px 15px ;
+    box-shadow: 5px 5px 5px 0 rgba(94, 124, 137, .2);
   }
 
   .inputButton {
