@@ -47,6 +47,12 @@ h1 {
     border-radius: 5px;
   }
 
-
+  .search-form-input {
+    background-color: #c3d5dd;
+    border: none;
+    border-radius: 6px;
+    width: 70%;
+    padding: 8px 5px;
+  }
 
   
