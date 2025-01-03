@@ -18,11 +18,19 @@ text-shadow:
 
 .weather-app-details {
     font-size: 15.5px;
-    line-height: 20px;
+    line-height: 24px;
 }
 
 .weather-app-details strong{
     color: #aa5567;
+}
+.weather-icon{
+    font-size: 44px;
+    margin-top: 22px;
+}
+.weather-app-temp {
+    font-size: 66px;
+    margin-left: 10px;
 }
 
 h2{
@@ -57,6 +65,8 @@ a {
 main{
     padding: 30px 0;
 }
+
+
   footer {
       font-size: 10px;
       text-align: center;
@@ -73,7 +83,8 @@ main{
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 20px;
-    max-width: 85%;
+    max-width: 800px;
+    min-width: 200px;
     padding: 20px 15px ;
     box-shadow: 5px 5px 5px 0 rgba(94, 124, 137, .2);
 
@@ -82,13 +93,17 @@ main{
   .inputButton {
     background-color: #aa5567;
     border: none;
-    border-color: #034078 ;
     border-radius: 7px;
     padding: 8px 5px;
     color: #ffffff;
     width: 75px;
     font-size: 15px;
     margin-left: 13px;
+  }
+
+  .inputButton:hover {
+    background-color: #034078;
+    border: 1px solid #c3d5dd;
   }
 
   .search-form-input {
@@ -100,10 +115,23 @@ main{
     font-size: 16px;
   }
 
+   .search-form-input:hover {
+    border: 1.5px solid #aa5567;
+   }
+
   .weather-app-data{
     display: flex;
     justify-content: space-between;
   }
+
+  .weather-app-temp-container{
+    display: flex;
+  }
+.weather-app-unit{
+    font-size: 28px;
+    margin-top: 15px;
+    margin-right: 30px;
+}
 
 .firstHalf,
 .secondHalf {
@@ -112,4 +140,9 @@ main{
   text-align: center;
   width: fit-content;
 
+}
+
+.firstHalf strong, .secondHalf strong {
+    color: #aa5567;
+    font-weight: 800;
 }
