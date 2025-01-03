@@ -39,10 +39,11 @@ text-shadow:
         115) ;
     border: 35px;
     border-radius: 10px;
-    margin: 25px 30px;
-    max-width: 85%px;
+    margin: 25px 30px auto;
+    max-width: 85%;
     padding: 20px 15px ;
     box-shadow: 5px 5px 5px 0 rgba(94, 124, 137, .2);
+
   }
 
   .inputButton {
@@ -66,4 +67,11 @@ text-shadow:
     font-size: 16px;
   }
 
-  
+.firstHalf,
+.secondHalf {
+    display: flex;
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+
+}
