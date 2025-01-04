@@ -138,10 +138,24 @@ main{
 .firstHalf,
 .secondHalf {
     display: flex;
+    justify-content: space-evenly;
   margin: 0 auto;
   text-align: center;
   width: fit-content;
+    gap: 20px;
 
+}
+
+.day-of-week {
+    .day-of-week {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            margin: 0 10px;
+    
+        }
 }
 
 .firstHalf strong, .secondHalf strong {
