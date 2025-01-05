@@ -72,7 +72,6 @@ main{
       text-align: center;
       color: #aa5567;
       margin-top: 25px;
-
   }
 
   .box {
@@ -87,7 +86,6 @@ main{
     min-width: 200px;
     padding: 20px 15px ;
     box-shadow: 5px 5px 5px 0 rgba(94, 124, 137, .2);
-
   }
 
   .inputButton {
