@@ -1,5 +1,6 @@
 h1 {
       text-align: center;
+      font-size: 38px;
       color: rgb(3,
         64,
         120);
@@ -45,8 +46,6 @@ h2{
         color: #034078;
   }
 
- 
-
  form {
      display: block;
      margin: 20px auto;
@@ -65,7 +64,6 @@ a {
 main{
     padding: 30px 0;
 }
-
 
   footer {
       font-size: 10px;
@@ -111,11 +109,14 @@ main{
     width: 70%;
     padding: 8px 5px;
     font-size: 16px;
+    transition: border 0.3s ease, background-color 0.3s ease;
   }
 
    .search-form-input:hover {
     border: 1.5px solid #aa5567;
    }
+
+
 
   .weather-app-data{
     display: flex;
