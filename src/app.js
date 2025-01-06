@@ -1,5 +1,5 @@
 function searchCity(city){
-    //make API call and update interface
+  let apiKey = "36b4fe238810fo977tebf4ca2bcf46b6";
 }
 
 
