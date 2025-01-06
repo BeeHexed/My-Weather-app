@@ -1,5 +1,5 @@
 function searchCity(city){
-    //make API call and update
+    //make API call and update interface
 }
 
 
@@ -8,6 +8,7 @@ function handleSearchSubmit(event) {
     let searchInput = document.querySelector(".search-form-input");
      let cityElement= document.querySelector(".weather-app-city");
      cityElement.innerHTML = searchInput.value;
+     searchCity(searchInput.value);
 }
 
 let searchFormElement = document.querySelector("#search-form");
