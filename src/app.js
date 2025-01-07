@@ -3,12 +3,14 @@ function refreshWeather(response) {
     let temperature = response.data.temperature.current;
     let cityElement= document.querySelector(".weather-app-city");
     let descriptionElement = document.querySelector("#description");
-let humidityElement = document.querySelector("#humidity");
+    let humidityElement = document.querySelector("#humidity");
     console.log(response.data);
+    let windElement = document.querySelector("#wind-speed");
     
     cityElement.innerHTML = response.data.city;
     descriptionElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = `${response.data.temperature.humidity}% `;
+    windElement.innerHTML = `${response.data.wind.speed} km/h`;
     temperatureElement.innerHTML = Math.round(temperature);
 }
 
