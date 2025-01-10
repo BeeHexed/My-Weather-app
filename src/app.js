@@ -12,7 +12,7 @@ function refreshWeather(response) {
 
      iconElement.innerHTML =`<img
                 src="${response.data.condition.icon_url}"
-                id="icon" class="weather-icon"
+                id="icon"
               />`;
     
     timeElement.innerHTML = formatDate(date);
