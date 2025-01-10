@@ -32,7 +32,42 @@ form {
   margin: 20px auto;
   text-align: center;
  }
- 
+
+ .inputButton {
+   background-color: #aa5567;
+   border: none;
+   border-radius: 7px;
+   padding: 8px 5px;
+   color: #ffffff;
+   width: 75px;
+   font-size: 15px;
+   margin-left: 13px;
+ }
+
+ .inputButton:hover {
+   background-color: #034078;
+   border: 1px solid #c3d5dd;
+ }
+
+ .search-form-input {
+   background-color: #c3d5dd;
+   border: none;
+   border-radius: 6px;
+   width: 70%;
+   padding: 8px 5px;
+   font-size: 16px;
+   transition: border 0.3s ease, background-color 0.3s ease;
+ }
+
+ .search-form-input:hover {
+   border: 1.5px solid #aa5567;
+ }
+
+
+ hr {
+      border-color: rgba(195, 213, 221, .3);
+      width: 80%;
+    }
 .weather-app-city {
     margin: 0;
 }
@@ -69,13 +104,6 @@ h2{
         color: #034078;
   }
 
- 
-
- hr {
-    border-color: rgba(195, 213, 221, .3);
-    width: 80%;
- }
-
 a {
     color: #034078;
 }
@@ -90,40 +118,6 @@ main{
       color: #aa5567;
       margin-top: 25px;
   }
-
-
-
-  .inputButton {
-    background-color: #aa5567;
-    border: none;
-    border-radius: 7px;
-    padding: 8px 5px;
-    color: #ffffff;
-    width: 75px;
-    font-size: 15px;
-    margin-left: 13px;
-  }
-
-  .inputButton:hover {
-    background-color: #034078;
-    border: 1px solid #c3d5dd;
-  }
-
-  .search-form-input {
-    background-color: #c3d5dd;
-    border: none;
-    border-radius: 6px;
-    width: 70%;
-    padding: 8px 5px;
-    font-size: 16px;
-    transition: border 0.3s ease, background-color 0.3s ease;
-  }
-
-   .search-form-input:hover {
-    border: 1.5px solid #aa5567;
-   }
-
-
 
   .weather-app-data{
     display: flex;
