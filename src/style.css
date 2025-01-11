@@ -154,7 +154,8 @@ main{
             align-items: center;
             text-align: center;
             margin: 0 25px;
-    
+            font-size: 16px;
+            padding: 10px ;
         }
 
 .firstHalf strong, .secondHalf strong {
@@ -163,6 +164,11 @@ main{
 }
 
 .low {
-  color: rgb(166, 96, 111);
+  color: rgb(163, 102, 116);
   font-weight: 800;
+}
+
+.icon{
+  font-size: 38px;
+  margin-top: 15px;
 }
