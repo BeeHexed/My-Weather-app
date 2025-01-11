@@ -137,8 +137,7 @@ main{
     line-height: 1px;
 }
 
-.firstHalf,
-.secondHalf {
+.weather-forecast {
     display: flex;
     justify-content: space-evenly;
   margin: 0 auto;

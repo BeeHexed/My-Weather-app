@@ -12,7 +12,7 @@ function refreshWeather(response) {
 
      iconElement.innerHTML =`<img
                 src="${response.data.condition.icon_url}"
-                id="icon"
+                id="icon" class="weather-icon"
               />`;
     
     timeElement.innerHTML = formatDate(date);
@@ -54,7 +54,34 @@ function handleSearchSubmit(event) {
      searchCity(searchInput.value);
 }
 
+function displayForecast () {
+    let forecastElement = document.querySelector("#forecast");
+
+    let days = ["Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    let forecastHtml = "";
+
+ days.forEach(function(day){
+forecastHtml = 
+forecastHtml + 
+`
+    <div class="firstHalf">
+            <div class="day-of-week">
+              ${day}
+              <div class="icon">🌤️</div>
+              <br />
+              <span><strong>20° C</strong></span>
+              <span class="low">20° C</span>
+            </div>
+          </div>
+`;
+ });
+ forecastElement.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("London");
+displayForecast();
+
+
