@@ -61,8 +61,7 @@ function displayForecast () {
     let forecastHtml = "";
 
  days.forEach(function(day){
-forecastHtml = 
-forecastHtml + 
+forecastHtml +=  
 `
     <div class="firstHalf">
             <div class="day-of-week">
