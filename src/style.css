@@ -68,6 +68,7 @@ form {
       border-color: rgba(195, 213, 221, .3);
       width: 80%;
     }
+
 .weather-app-city {
     margin: 0;
 }
@@ -159,4 +160,9 @@ main{
 .firstHalf strong, .secondHalf strong {
     color: #aa5567;
     font-weight: 800;
+}
+
+.low {
+  color: rgb(166, 96, 111);
+  font-weight: 800;
 }
