@@ -168,6 +168,8 @@ main{
 }
 
 .icon{
-  font-size: 38px;
-  margin-top: 15px;
+  width: 48px;
+  height: 48px;
+  margin-top: 10px;
+  display: block;
 }
