@@ -54,7 +54,15 @@ function handleSearchSubmit(event) {
      searchCity(searchInput.value);
 }
 
-function displayForecast () {
+function getForecast(city) {
+let apiKey = "36b4fe238810fo977tebf4ca2bcf46b6";
+let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${encodeURIComponent(city.trim())}&key=${apiKey}&units=metric`;
+axios(apiUrl).then(displayForecast);
+}
+
+function displayForecast (response) {
+console.log(response.data);
+
     let forecastElement = document.querySelector("#forecast");
 
     let days = ["Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
@@ -81,6 +89,7 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("London");
-displayForecast();
+getForecast("London");
+
 
 
