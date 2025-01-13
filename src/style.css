@@ -86,6 +86,7 @@ form {
 .weather-icon{
     width: 88px;
     height: 88px;
+    margin-bottom: 20px;
 }
 .weather-app-temp {
     font-size: 66px;
@@ -114,7 +115,7 @@ main{
 }
 
   footer {
-      font-size: 10px;
+      font-size: 11px;
       text-align: center;
       color: #aa5567;
       margin-top: 25px;
@@ -153,8 +154,9 @@ main{
             align-items: center;
             text-align: center;
             margin: 0 25px;
-            font-size: 16px;
+            font-size: 18px;
             padding: 10px ;
+            font-weight: 600;
         }
 
 .firstHalf strong, .secondHalf strong {
@@ -168,8 +170,8 @@ main{
 }
 
 .icon{
-  width: 48px;
-  height: 48px;
+  width: 70px;
+  height: 70px;
   margin-top: 10px;
-  display: block;
+
 }
