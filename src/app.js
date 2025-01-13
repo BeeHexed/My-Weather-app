@@ -78,12 +78,12 @@ console.log(response.data);
     let forecastHtml = "";
 
 response.data.daily.forEach(function(day, index){
-    if (index < 6) 
+    if (index > 0 && index < 6) 
 forecastHtml +=  
 `
     <div class="firstHalf">
             <div class="day-of-week">
-             ${formatDay(day.time)};
+             ${formatDay(day.time)}
               <div>
              <img src="${day.condition.icon_url}" class="icon"/>
               </div>
